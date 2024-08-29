@@ -8,7 +8,7 @@ let baseURL;
 if (REACT_APP_ENVIRONMENT === "PRODUCTION") {
 	baseURL = REACT_APP_API_BASE_URL_PROD;
 } else {
-	baseURL = "http://127.0.0.1:8000/";
+	baseURL = "https://hivetechbackend.onrender.com/";
 }
 
 const api = axios.create({
